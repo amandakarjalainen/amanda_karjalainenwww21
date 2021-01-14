@@ -1,0 +1,98 @@
+/* Exercise 3 */ 
+body {
+    background-color: rgb(224, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+h1 {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(150, 7, 7);
+    padding-bottom: 5px;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(83, 83, 83, 0.507);
+}
+h2 {
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgb(150, 53, 53);
+}
+p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: rgb(59, 59, 59);
+}
+li {
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgb(59, 59, 59);
+}
+a:link {
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+}
+a:visited {
+    color:rgb(26, 105, 68);
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+}
+a:hover {
+    color:rgb(143, 28, 28);
+    text-decoration-line: none;
+}
+address {
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgb(59, 59, 59);
+    padding-left: 15px;
+}
+.orbiatafigure {
+    float: right;
+    width: 24%;
+    text-align: center;
+    text-indent: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-left: 2px;
+}
+.rainforestfigure {
+    float: right;
+    width: 21%;
+    text-align: center;
+    text-indent: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-left: 2px;    
+}
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+}
+.generalist {
+    float: right;
+    width: 12%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(225, 243, 236);
+}  
+.contentlist {
+    float: left;
+    width: 12%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(225, 243, 236);
+} 
+.upperlinkpadding {
+    padding: 10px;
+}
