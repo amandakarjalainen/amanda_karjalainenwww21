@@ -1,16 +1,18 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name = "description" content = "This page contains three exercises to practice basis of making web pages.">
+    <meta name = "description" content = "This page contains three exercises to practice basics of making web pages.">
     <title>Marantaceae</title>
     <link href = "./css/style.css" rel = "stylesheet" type = "text/css">
+    <script src="https://kit.fontawesome.com/3c1fe89ab3.js" crossorigin="anonymous"></script>
 </head>
 <!--head ends here-->
 <body>
     <div class = "wrapper">
         <header>
+            <i class="fas fa-seedling" style = "color: rgb(201, 45, 221); font-size: 20px;"></i>
             <!--Link list-->
             <ul class = "topmenu">
                 <li style = "display: inline;" class = upperlinkpadding><a link href="index.html">Home</a></li>
@@ -27,8 +29,8 @@
                 <!--The first chapter-->
                 <article>
                     <h1>Marantaceae</h1>
-                    <div class = orbiatafigure>
-                        <figure><p><img src = "images/calatheaornata.jpg" alt = "Calathea Orbiata" width = "345px" height = "235px" class = "responsive">
+                    <div class = "figure">
+                        <figure><img src = "images/calatheaornata.jpg" alt = "Calathea Orbiata" width = "345px" height = "235px" class = "responsive">
                             <figcaption>Calathea Ornata</figcaption></figure></div>
                     <p><b>The Marantaceae</b> are a family of flowering plants, composed of about 31 genera and over 500 species. 
                     Species of this family are native to moist tropical forests of Americas, Africa and Asia. 
@@ -45,7 +47,7 @@
                         <p><b>Contents</b></p>
                         <i><li>Appearance</li>
                         <li>Habitat</li>
-                        <li>Address</li>
+                        <li>FAQ</li>
                         <li>Videos</li></i>
                     </ol>
                 </div>
@@ -118,8 +120,8 @@
                 <!--The third chapter-->
                 <h2>Habitat</h2>
                 <hr>
-                <div class = rainforestfigure> 
-                    <figure><p><img src = "images/rainforest.jpg" alt = "The rainforest" width = "300px" height = "200px" class = "responsive">
+                <div class = "figure"> 
+                    <figure><img src = "images/rainforest.jpg" alt = "The rainforest" width = "300px" height = "200px" class = "responsive">
                         <figcaption>Rainforests are natural habitats of Marantaceae plants.</figcaption></figure>
                 </div>
                 <p>The tropical forests of Americas, Africa and Asia are the place where Marantaceae family's species thrive. 
@@ -133,6 +135,23 @@
                 <!--Exercise 3-->
                 <p style = "font-size: 18px; background-color: rgb(183, 235, 206);">
                     <b><u>Exercise 3</u>:</b></p>
+                <dl>
+                    <h2>FAQ</h2>
+                    <dt><b>How can you type ä, ö etc. in your HTML document?</b></dt>
+                    <dd><li>UTF-8 enables almost every known characters, punctations and symbols, as well as ä, ö, å in HTML.<br> 
+                        To do this, type <i style = "color:rgb(150, 7, 7); font-size: 12px; background-color: rgba(224, 224, 224, 0.842);">&lt;meta charset=&quot;UTF-8&quot;&gt;</i>
+                        inside <i style = "color:rgb(150, 7, 7); font-size: 12px; background-color: rgba(224, 224, 224, 0.842);">&lt;head&gt;&lt;/head&gt;</i>
+                        elements in your HTML document.</li>
+                    </dd>
+
+                    <dt><b>What are the differences between HTML and HTML5?</b></dt>
+                    <dd><li>HTML5 is more user-friendly and flexible compared to HTML. Web pages can now store data locally on the 
+                        user's browser, which eliminates the need for HTTP cookies. Interactive games, audio and video playback no 
+                        longer require additional plug-ins to run, and HTML5 gives developers more control over the performance of 
+                        their websites.  HTML5 makes mobile support easier by catering to "low-fueled" devices like smartphones and 
+                        tablets.
+                    </li></dd>
+                </dl>
 
                 <!--Video-->
                 <h2>Videos</h2>

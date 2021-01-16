@@ -47,18 +47,13 @@ h2 {
     color: rgb(150, 53, 53);
 }
 
-p {
+p, dt, li {
     font-size: 13px;
     color: rgb(59, 59, 59);
 }
 
 ul {
     list-style: none;
-}
-
-li {
-    font-size: 12px;
-    color: rgb(59, 59, 59);
 }
 
 figcaption {
@@ -119,14 +114,12 @@ address {
     background-color: rgb(225, 243, 236);
 }
 
-.orbiatafigure {
+.figure {
     float: right;
     text-align: center;
     text-indent: 0;
 }
-
-.rainforestfigure {
-    float: right;
-    text-align: center;
-    text-indent: 0;    
+.fasfa-seedling {
+    size: 9px;
+    color: crimson;
 }
