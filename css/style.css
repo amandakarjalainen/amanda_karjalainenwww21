@@ -1,121 +1,132 @@
 /* Exercise 3 */ 
+
+/* LAYOUT */
 .wrapper {
     margin: auto;
     width: 96%;
 }
+
 .topmenu {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
     margin: 0;
-    background-color: rgb(146, 197, 178);
+    background-color: rgb(214, 214, 214);
 }
+
+.flexgrow {
+    display: flex;
+    align-items: stretch;
+}
+
+footer {
+    text-align: left;
+    color: rgb(59, 59, 59);
+    background-color: rgb(214, 214, 214);
+}
+
+
+/* TAGS */
 body {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(236, 236, 236);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
 }
+
 h1 {
     font-size: 16px;
-    line-height: 1.8;
     color: rgb(150, 7, 7);
     padding-bottom: 5px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgba(83, 83, 83, 0.507);
 }
+
 h2 {
     font-size: 14px;
-    line-height: 1.8;
     color: rgb(150, 53, 53);
 }
+
 p {
     font-size: 13px;
-    line-height: 1.8;
     color: rgb(59, 59, 59);
 }
-li {
-    font-size: 12px;
-    line-height: 1.8;
-    color: rgb(59, 59, 59);
-}
+
 ul {
     list-style: none;
 }
-a:link {
+
+li {
     font-size: 12px;
-    line-height: 1.8;
+    color: rgb(59, 59, 59);
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+a:link {
+    font-size: 13px;
     color: rgb(0, 0, 0);
     text-decoration-color: rgb(0, 0, 0);
     text-decoration-line: underline;
 }
+
 a:visited {
     color:rgb(26, 105, 68);
     text-decoration-color: rgb(0, 0, 0);
     text-decoration-line: underline;
 }
+
 a:hover {
     color:rgb(143, 28, 28);
     text-decoration-line: none;
 }
+
 address {
     font-size: 12px;
-    line-height: 1.8;
-    color: rgb(59, 59, 59);
-    padding-left: 15px;
 }
+
+
+/* CLASSES */
+.upperlinkpadding {
+    padding: 10px;
+}
+
 .responsive {
     max-width: 100%;
     height: auto;
 }
+
+.contentset {
+    float: left;
+    padding-right: 35px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(225, 243, 236);
+}
+
+.generaset {
+    float: right;
+    padding-right: 35px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(225, 243, 236);
+}
+
 .orbiatafigure {
     float: right;
-    width: 24%;
     text-align: center;
     text-indent: 0;
-    margin-top: 15px;
-    margin-right: 15px;
-    padding-left: 2px;
 }
+
 .rainforestfigure {
     float: right;
-    width: 21%;
     text-align: center;
-    text-indent: 0;
-    margin-top: 15px;
-    margin-right: 15px;
-    padding-left: 2px;    
-}
-figcaption {
-    font-size: 12px;
-    font-style: italic;
-}
-.flexcontents {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    float: left;
-    width: 11%;
-    padding-left: 9px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(138, 138, 138);
-    background-color: rgb(225, 243, 236);
-    max-width: 100%;
-    height: auto;
-}
-.flexgenera {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    float: right;
-    width: 14%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(138, 138, 138);
-    background-color: rgb(225, 243, 236);
-    max-width: 100%;
-    height: auto;
-}
-.upperlinkpadding {
-    padding: 10px;
+    text-indent: 0;    
 }
