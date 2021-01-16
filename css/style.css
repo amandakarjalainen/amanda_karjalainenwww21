@@ -1,15 +1,25 @@
 /* Exercise 3 */ 
+.wrapper {
+    margin: auto;
+    width: 96%;
+}
+.topmenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    background-color: rgb(146, 197, 178);
+}
 body {
     background-color: rgb(224, 224, 224);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
+}
 h1 {
     font-size: 16px;
     line-height: 1.8;
     color: rgb(150, 7, 7);
     padding-bottom: 5px;
-    border-bottom-style:solid;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgba(83, 83, 83, 0.507);
 }
@@ -27,6 +37,9 @@ li {
     font-size: 12px;
     line-height: 1.8;
     color: rgb(59, 59, 59);
+}
+ul {
+    list-style: none;
 }
 a:link {
     font-size: 12px;
@@ -50,6 +63,10 @@ address {
     color: rgb(59, 59, 59);
     padding-left: 15px;
 }
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
 .orbiatafigure {
     float: right;
     width: 24%;
@@ -72,27 +89,33 @@ figcaption {
     font-size: 12px;
     font-style: italic;
 }
-.generalist {
-    float: right;
-    width: 12%;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-style: solid;
-    border-width: thin;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(225, 243, 236);
-}  
-.contentlist {
+.flexcontents {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
     float: left;
-    width: 12%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    margin-left: 15px;
+    width: 11%;
+    padding-left: 9px;
     border-style: solid;
-    border-width: thin;
-    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-color: rgb(138, 138, 138);
     background-color: rgb(225, 243, 236);
-} 
+    max-width: 100%;
+    height: auto;
+}
+.flexgenera {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    float: right;
+    width: 14%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(225, 243, 236);
+    max-width: 100%;
+    height: auto;
+}
 .upperlinkpadding {
     padding: 10px;
 }

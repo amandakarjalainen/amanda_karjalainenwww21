@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name = "description" content = "This is an exercise to practice basis of making web pages.">
+    <meta name = "description" content = "This page contains three exercises to practice basis of making web pages.">
     <title>Marantaceae</title>
     <link href = "./css/style.css" rel = "stylesheet" type = "text/css">
 </head>
 <!--head ends here-->
 <body>
-    <!--Link list-->
-    <ul ALIGN = "right">
-        <li style = "display: inline;" class = upperlinkpadding><a link href="https://amandakarjalainen.github.io/amanda_karjalainenwww21/">Home</a></li>
-        <li style = "display: inline;" class = upperlinkpadding><a link href="https://amandakarjalainen.github.io/amanda_karjalainenwww21/aboutus.html">About Us</a></li>
-        <li style = "display: inline;" class = upperlinkpadding><a link href="https://amandakarjalainen.github.io/amanda_karjalainenwww21/projects.html">Projects</a></li>
-    </ul>
+    <div class = "wrapper">
+        <header>
+            <!--Link list-->
+            <ul class = "topmenu">
+                <li style = "display: inline;" class = upperlinkpadding><a link href="index.html">Home</a></li>
+                <li style = "display: inline;" class = upperlinkpadding><a link href="aboutus.html">About Us</a></li>
+                <li style = "display: inline;" class = upperlinkpadding><a link href="projects.html">Projects</a></li>
+            </ul>
+        </header>
     <!--Exercise 1-->
     <p style = "font-size: 18px; background-color: rgb(183, 235, 206);">
         <b><u>Exercise 1</u>:</b></p>
     <!--The first chapter-->
     <h1>Marantaceae</h1>
     <article>
-        <figure class = orbiatafigure><p><img src = "images/calatheaornata.jpg" width = "345px" height = "235px" ALIGN = "right">
+        <figure class = orbiatafigure><p><img src = "images/calatheaornata.jpg" alt = "Calathea Orbiata" width = "345px" height = "235px" ALIGN = "right" class="responsive">
             <figcaption>Calathea Ornata</figcaption></figure>
         <p><b>The Marantaceae</b> are a family of flowering plants, composed of about 31 genera and over 500 species. 
         Species of this family are native to moist tropical forests of Americas, Africa and Asia. 
@@ -32,8 +35,8 @@
         The plant's less formal nickname is <b>praying hands</b> due to its shape in the night time as it <q>goes to sleep</q>.</p>
     </article>
     <!--Content list-->
-    <div class = contentlist>
-        <ol>
+    <div class = "flexcontents">
+        <ol >
             <p><b>Contents</b></p>
             <i><li>Appearance</li>
             <li>Habitat</li>
@@ -54,7 +57,7 @@
     <h2>Appearance</h2>
     <hr>
     <!--The Genera list-->
-    <div class = generalist>
+    <div class = "flexgenera">
         <ul>
             <p><b>Genera</b></p>
             <i><li>Afrocalathea</li>
@@ -110,7 +113,7 @@
     <h2>Habitat</h2>
     <hr>
     <article>
-    <figure class = rainforestfigure><p><img src = "images/rainforest.jpg" width = "300px" height = "200px" ALIGN = "right">
+    <figure class = rainforestfigure><p><img src = "images/rainforest.jpg" alt = "The rainforest" width = "300px" height = "200px" ALIGN = "right" class="responsive">
         <figcaption>Rainforests are natural habitats of Marantaceae plants.</figcaption></figure>
     <p>The tropical forests of Americas, Africa and Asia are the place where Marantaceae family's species thrive. 
         Approximately 80% of the species grow in Americans forests, 11% in Asia and the rest 9% in Africa. Because they are covered 
@@ -132,9 +135,10 @@
     <!--Video-->
     <h2>Videos</h2>
     <hr>    
-    <video width="320" height="180" controls muted>
+    <video width="320" height="180" controls muted loop>
         <source src="images/dog.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    </div>
 </body>
 </html>
