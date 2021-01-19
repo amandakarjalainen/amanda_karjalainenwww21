@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "This is an exercise to practice basics of making web pages.">
+    <title>Exercise 4</title>
+    <link href = "./css/style4.css" rel = "stylesheet" type = "text/css">
+</head>
+<!--Head element ends here-->
+<body>
+    <div class = "wrapper">
+        <!--My header, having just a heading-->
+        <header>
+            <br>
+            <h1>PRACTISING BASICS OF WEB PAGES</h1>
+            <br>
+        </header>
+
+        <div class = "flexgrow" style = "background-color: rgb(243, 243, 243);">
+            <!--Left sidebar, having navbar-->
+            <leftbar style = "flex-grow: 1;">
+                <ul class = "navbar">
+                    <h3>LINKS</h3>
+                    <li style = "display: inline;"><a href = "index.html">Home</a></li>
+                    <li style = "display: inline;"><a href = "https://amandakarjalainen.github.io/amanda_karjalainenwww21/">My otter page</a></li>
+                    <li style = "display: inline;"><a href = "https://en.wikipedia.org/wiki/Capybara">Capybara</a></li>
+                </ul>
+                <div>
+                    <h3>LEFT SIDEBAR</h3>
+                    <p style = "font-size: 14px; padding-left: 20px; padding-right: 10px; line-height: 28px;">Navigation bar here!<br>
+                    You can see one above.<br></p>
+                    <hr>
+                    <p style = "font-size: 14px; padding-left: 20px; padding-right: 10px; line-height: 28px;">Here is a great spot for an image as well.</p>
+                </div>
+                <div class = "figure">
+                    <figure><img src = "images/tulip.jpg" alt = "A tulip" width = "170px" height = "113.22px" style = "border: 1.8px solid rgba(64, 14, 66, 0.637);" class = "responsive">
+                    </figure>
+                </div>                  
+            </leftbar>
+
+            <!--Content-->
+            <content style = "flex-grow: 6; padding-left: 30px; padding-right: 30px;">
+                <article>
+                    <h2>EXPERIENCE</h2>
+                    <p>Okay, so. I had zero experience about making web pages a while ago and it surely is not anything great now either.
+                        But this is actually quite fun and I have been enjoying practising a lot to see improvements. 
+                        I think it is not too hard and you can figure things out easily by yourself. Google is your friend.
+                        <br><br>
+                        Before 2020 fall, my experience in programming was next to none. I had familiarized myself with Python's basics, 
+                        but that's it. Nowadays, having some knowledge about Java and Python, I have noticed it certainly helps with 
+                        making web pages. It is completely different sure, but in problem solving it benefits.</p>
+                </article>
+                <article>
+                    <div class = "figure">
+                        <figure><img src = "images/planning.jpg" alt = "A working woman" width = "320px" height = "213.12px" class = "responsive">
+                            <figcaption>Take your time to plan what do you want<br> your page to have and what it should look like.</figcaption>
+                        </figure>
+                    </div>
+                    <h2>CONTENT</h2>
+                    
+                    <p>Well then, what there should be inside a <b>&lt;content&gt;</b> tag? The content <u>you want</u> there to be, of course! 
+                        It should be unique though. Do not repeat the same things you would put in sidebars, navigation bars, a footer 
+                        etc.</p>
+                    <ul>
+                        <li>It includes <b>headings</b> inside different heading tags like the largest <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b> and so on till 
+                            the smallest <b>&lt;h6&gt;</b>.</li>
+                        <li><b>Paragraphs &lt;p&gt;</b> are good, short or longer. Whatever suits purpose and fits the page.</li>  
+                        <li><b>Images and videos!</b> It is quite usual to see any sized pictures on modern webpages. 
+                            Invest in good visuals alongside the workability of a web page.</li>  
+                        <li>You could include <b>a table of contents</b> to give a brief overview of the page.</li>
+                    </ul>
+                </article>
+            </content>
+        </div>
+        <footer>
+            <address style = "padding-right: 20px; padding-top: 20px;"><u>Address:</u><br>
+                Hämeen ammattikorkeakoulu HAMK<br>
+                PL 230 13101<br> 
+                Hämeenlinna<br>
+            </address>
+            <dl style = "padding-left: 20px; padding-top: 10px; ">
+                <dt><b>What there could be inside a &lt;footer&gt; tag?</b></dt>
+                    <dd>
+                        <ul>
+                            <li>Authorship, copyright and contact information</li>
+                            <li>Some links</li>
+                            <li>Related documents</li>
+                        </ul>
+                    </dd>
+            </dl>
+        </footer>
+    </div>
+</body>
+</html>
