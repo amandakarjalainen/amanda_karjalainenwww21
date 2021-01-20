@@ -28,7 +28,7 @@ footer {
 
 /* TAGS */
 body {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(243, 243, 243);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.8;
 }
@@ -118,4 +118,8 @@ address {
     float: right;
     text-align: center;
     text-indent: 0;
+}
+
+.projectslist {
+    font-size: 15px;
 }
