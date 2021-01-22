@@ -31,6 +31,10 @@ leftbar {
     width: 230px;
 }
 
+content {
+    min-height: 750px;
+}
+
 footer {
     margin: 0;
     height: 100px;
