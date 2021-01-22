@@ -1,0 +1,41 @@
+/* LAYOUT */
+.footer {
+    width: 100%;
+    height: 149px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    background-color: rgb(41, 41, 41);
+}
+
+
+/* TAGS */
+address {
+    padding-top: 30px;
+}
+  
+
+/* CLASSES */
+.background-image {
+    background-image: url("images/sunlight.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+  
+.background-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
